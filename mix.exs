@@ -21,7 +21,7 @@ defmodule ListLength.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      {:json_response, git: "https://github.com/joaopealves/json_response"}
+      {:credo, "~> 1.5", only: [:dev, :test], runtime: false}
     ]
   end
 end
